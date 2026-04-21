@@ -23,10 +23,3 @@ function parbaudit() {
         document.getElementById("rezultats").textContent = "Mēģini lielāku skaitli"
     }
 }
-function atkārtot() {
-    minējums = Math.floor(Math.random()* 11)
-    mini = 0
-    document.getElementById("rezultats").textContent = ""
-    document.getElementById("meg").textContent = ""
-    document.getElementById("ievade").textContent = ""
-}
