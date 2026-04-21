@@ -1,5 +1,5 @@
-const datums = new Date();
-izvade.innerHTML = datums;
+const datums = new Date()
+izvade.innerHTML = datums
 
 function pievienot() {
     let prieksmets = document.getElementById("Priekšmets").value

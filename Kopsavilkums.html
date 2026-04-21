@@ -4,52 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
-    body{
-        background-color: pink;
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    input{
-         margin-left: 10px;
-         text-align: center;
-    }
-button{
-    background-color: hotpink;
-    color: white;
-    border: none;
-    text-align: center;
-}
-li{
-    background-color: white;
-    text-align: center;
-}
-ul{
-    padding: 10px;
-    text-align: center;
-}
-</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 
 </head>
 <body>
-
-
-
-
+    <p id="izvade"></p>
+    <h1> Skaitļa minēšanas spēle</h1>
+<p>Atpūties no mācībām un uzspēlē spēli! Šajā spēlē Tev ir jauzmin skaitlis. </p>
+<h2> Ievadi skaitli no 0 līdz 10</h2>
 <hr>
-<h2>Spēle</h2>
-<p>Ievadi skatli no 1 līdz 20</p>
-<input type="number" id="skaitlis">
-<button onclick="minet()">Minēt</button>
+<p>Uzmini skaitli.</p>
+<input type="number" id="ievade">
+<button onclick="parbaudit()"> Pārbaudīt </button>
 
 <p id="rezultats"></p>
-<br>
+<p id="meg"></p>
+<button onclick="atkartot()">Atkārtot</button>
+
+<hr>
 <a href="index.html">Atpakaļ</a>
-<script src="script.js"></script>
+<script src="scriptt.js"></script>
 
 
 

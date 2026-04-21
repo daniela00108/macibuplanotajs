@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    
+    
+<p id="izvade"></p>
+<h1>Mācību plānotājs</h1>
+<p>Sveiks skolēn! Tu esi nonācis mācību plānotāja lapā, kas Tev palīdzēs saplānot savus mācību un ikdienas plānus. Viss ir ļoti vienkārši, Tu ievadi priekšmetu, datumu un uzdevumu. Kad esi izpildijis ieplānoto, uzdevumu sarakstu vari rediģēt ar vienas pogas klikšķi. Kad esi izpildijis ieplānoto dodies uz " Ej uz spēli " un atpūties no padarītā. Veidosim savu ikdienu saplānoti ar Mācību plānotāju.</p>
+
+<h2>Pievienot uzdevumu</h2>
+<div class="forma">
+    <p>Priekšmets:
+        <input id="Priekšmets" placeholder="Priekšmets">
+      </p>
+    <p>Datums:
+        <input id="Datums" type="date" >
+    </p>
+
+    <p>Uzdevums:
+        <input id="Uzdevums" placeholder="Uzdevums">
+    </p>
+    <button onclick="pievienot()">Pievienot</button>
+</div>
+ 
+<hr>
+<h2>Uzdevumu saraksts:</h2>
+
+<ul id="saraksts"></ul>
+
+<br><br>
+<a href="Kopsavilkums.html">Ej uz spēli!</a>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

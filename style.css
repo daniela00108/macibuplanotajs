@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+p {
+    font-family: 'Lora' ;
+}
+
+
+body{
+        background-color: rgb(251, 182, 205);
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+         margin-left: 10px;
+         text-align: center;
+    }
+button{
+    background-color: rgb(251, 104, 178);
+    color: white;
+    border: none;
+    text-align: center;
+}
+li{
+    background-color: white;
+    text-align: center;
+}
+ul{
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+
+    text-align: center;
+}
